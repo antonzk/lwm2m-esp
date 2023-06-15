@@ -195,6 +195,7 @@ bool LwM2mManager::init()
   fprintf(stdout, "LWM2M Client \"%s\" started on port %s\r\n", name, localPort);
   fprintf(stdout, "> ");
   fflush(stdout);
+  return true;
   /*
      * We now enter in a while loop that will handle the communications from the server
      */
